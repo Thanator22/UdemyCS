@@ -7,7 +7,7 @@ const app = express();
 // CORS for react app, assuming port 3000
 app.use(
 	cors({
-		origin: "http://3.90.84.179:3000",
+		origin: "http://100.26.163.146:3000",
 		credentials: true,
 	})
 );
